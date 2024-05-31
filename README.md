@@ -1,10 +1,11 @@
 # Hotel_Website
+https://saumyasinhamath.github.io/Hotel_Website/
 
 The hotel website project, a collaborative effort by Anjali Batra, Aditi Varshney and myself, Saumya Sinha, aimed to design and develop an engaging online platform for a fictional hotel. The project, undertaken as part of undergraduate HTML course, sought to apply coding skills to create a visually appealing and functional website that would showcase the hotel's amenities, accommodation options, dining facilities, and contact information.
 
 The primary objectives of the project were to design a professional website layout, develop responsive web pages, create clear navigation, incorporate high-quality images, provide informative content, and implement a reservation form for visitor bookings. The team envisioned a website that would not only attract potential guests but also enhance the hotel's online presence and brand image.
 
-In the design phase, the team collaborated to conceptualize the website layout, color scheme, typography, and overall aesthetics. Wireframes and mockups were created to visualize the website structure and content placement, ensuring a cohesive and visually appealing design. During the development phase, HTML coding was used to create the website pages, incorporating semantic markup for content organization. CSS styling was applied to enhance the visual appeal and layout of the pages, while JavaScript was utilized for any interactive features or functionality.
+In the design phase, the team collaborated to conceptualize the website layout, color scheme, typography, and overall aesthetics. Wireframes and mockups were created to visualize the website structure and content placement, ensuring a cohesive and visually appealing design. During the development phase, HTML coding was used to create the website pages, incorporating semantic markup for content organization.
 
 Content creation played a crucial role in providing visitors with comprehensive information about the hotel. Informative content was drafted for each page, including details about accommodation options, dining facilities, amenities, location, and contact information. High-quality images were carefully selected to complement the content and showcase the hotel's offerings effectively.
 
