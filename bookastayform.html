@@ -1,0 +1,144 @@
+<style>
+
+
+input[type=text] {
+  width:30%;
+  padding: 12px 20px;
+  margin: 20px 20PX;
+  box-sizing: border-box;
+  border: 2px solid green;
+  background-color: SandyBrown;
+  color: black;
+}
+input[type=email] {
+  width:30%;
+  padding: 12px 20px;
+  margin: 20px 20PX;
+  box-sizing: border-box;
+  border: 2px solid green;
+  background-color: SandyBrown;
+  color: black; 
+} 
+input[type=number] {
+  width:30%;
+  padding: 12px 20px;
+  margin: 20px 10PX;
+  box-sizing: border-box;
+  border: 2px solid green;
+  background-color: SandyBrown;
+  color: black;
+}
+input[type=time] {
+  width:30%;
+  padding: 12px 20px;
+  margin: 20px 20PX;
+  box-sizing: border-box;
+  border: 2px solid green;
+  background-color: SandyBrown;
+  color: black;
+}
+input[type=date] {
+  width:30%;
+  padding: 12px 20px;
+  margin: 20px 20PX;
+  box-sizing: border-box;
+  border: 2px solid green;
+  background-color: SandyBrown;
+  color: black;
+}
+textarea{
+padding: 12px 20px;
+  margin: 20px 20PX;
+  box-sizing: border-box;
+  border: 2px solid green;
+  background-color: SandyBrown;
+  color: black;
+}
+
+form { background-color:#8FBC8F; font-family: century schoolbook;
+width: 1250px; padding: 10px;}
+select {
+  width:30%;
+  padding: 12px 20px;
+  margin: 20px 20PX;
+  border: 2px solid green;
+  border-radius: 4px;
+  background-color: SandyBrown;
+}
+
+.center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+</style>
+
+
+<body link=white vlink=white bgcolor="beige">
+<table width=100% bgcolor="teal">
+<tr height="75">
+<td> <a href="Home.html"> Home </a> </td>
+<td> <a href="about.html"> About Us </a> </td>
+<td> <a href="rooms.html"> Rooms </a> </td>
+<td> <a href="bookastayform.html"> Book a Stay </a> </td>
+<td> <a href="gallery.html"> Gallery </a> </td>
+<td> <a href="amen.html"> Amenities </a> </td>
+<td> <a href="pack.html"> Packages </a> </td>
+<td> <a href="awards.html"> Awards </a> </td>
+<td> <a href="reviews.html"> Reviews </a> </td>
+<td> <a href="FAQ.html"> FAQ </a> </td>
+<td> <a href="contact us.html"> Contact Us </a> </td>
+<td> <a href="location.html"> Location </a> </td>
+</tr>
+</table>
+
+<div class="imageContainer">
+<img src="63.jpg" width="1503" height="600">
+<div class="center"> <b><center> <font face="Algerian" size=7 color="white"> BOOK A STAY </center></font> </b> 
+</div>
+</div>
+
+<center>
+<br>
+<form name="regform" action="URL" method="post" target="_top">
+
+<h3>Personal Details</h3>
+Name</h2><style> width:50%;</style><input type="text" name="txt1" maxlength=50 align="left"><br><br>
+Mobile number</h2><input type="text" size=25>
+Email-id</h2><input type="email" size=25>
+<h3> Room Details</h3>
+Type of Room
+<select name="roomtype" id="roomtype">
+<option value="1">room type 1</option>
+<option value="2">room type 2</option>
+<option value="3">room type 3</option>
+<option value="4">room type 4</option>
+<option value="5">room type 5</option>
+</select>
+Number of Rooms</h2><input type="number" min=1 max=100 ><br>
+Number of Adults</h2><input type="number" min=1 max=6>
+Number of children</h2><input type="number" min=1 max=6 ><br>
+<h3>Timing Details</h3>
+Date of Arrival</h2><input type="Date" size=25>
+Time of Arrival</h2><input type="time" ><br>
+Departure date</h2><input type="Date" >
+Departure time</h2><input type="Time" ><br>
+<h3>Message</h3>
+<textarea rows=5 cols=50></textarea><br>
+<a href="booking confirmation.html"><img src="submit.png" width=55 height=20></a>
+<br><br><input type="reset"><br>
+<font size=4>
+<br><b>  Please Note:</b>
+<ul align=justify>
+
+<li>If you wish to book different types of rooms you have to book them separately, else, 
+you may book more than one room of the same type in one go.
+<li> Number of adults and children that are allowed in one room depends on the type of the room. 
+Click <a href="pack.html">here</a> for more information.
+<li>For any queries, <a href="contact us.html">Contact Us</a>
+</ul>
+</form>
+</center>
+
+</body>
